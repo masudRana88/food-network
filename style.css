@@ -1,0 +1,93 @@
+/* =========google font========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+/* ==========Nav Bar========== */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBF8FF;
+    height: 80px;
+}
+nav a img{
+    height: 90px;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-links ul li {
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+    
+}
+/* ==========header section========== */
+.header{
+    display: flex;
+    height: 100vh;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-position: center;
+}
+.header-text{
+    padding-top: 10%;
+}
+.text-highlighte{
+    color: #ff471a;
+}
+
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+
+.half-width{
+    width: 80%;
+    margin-left: 8%;
+    
+}
+.half-width h1{
+    font-size: 50px;
+    line-height: 20px;
+}
+.half-width p{
+    margin-bottom: 30px;
+}
+.half-width a{
+    background-image: linear-gradient(to right, #ff6600,#ff944d);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #ffff;
+    font-size: 16px;
+}
+/* ==========about-me section========== */
+.about-me{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-position: center;
+    height: 100vh;
+    padding-top: 5%;
+}
+.about-me .half-width img{
+    width: 80%;
+}
+.about-me .half-width h2{
+    padding-top: 25%;
+    font-size: 40px;
+}
