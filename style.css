@@ -1,13 +1,16 @@
 /* =========google font========== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Poppins', sans-serif; 
+    font-family: 'Bebas Neue', cursive;
+*/
 body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 /* ==========Nav Bar========== */
@@ -103,4 +106,68 @@ nav a img{
 .about-me .half-width h2{
     padding-top: 25%;
     font-size: 40px;
+}
+/* ==========recipie-section========== */
+.recipie-section{
+    height: 130vh;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recipie-section h2{
+    font-size: 25px;
+    line-height: 25px;
+}
+.recipie-container{
+    height: 85vh;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 27%;
+    box-shadow: 10px 5px 40px gray;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: left;
+}
+.card h1{
+    font-size: 25px;
+    
+}
+.card-img img{
+    height: 100%;
+    width: 100%;
+}
+/* ==========subscribe-area========== */
+.subscribe-area{
+    display: flex;  
+    height: 200px;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 17px gray;
+    border-radius: 30px;
+}
+.subscribe{
+    margin: 0 auto;
+}
+.subscribe h1{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 0px;
+}
+/* ==========footer section========== */ 
+footer{
+    height: 250px;
+    background-color: #0B0D17;
+    text-align: center;
+    color: #5B5B5B;
+    margin-top: 100px;
+}
+footer h1{
+    padding-top: 50px;
+    
+    font-weight: bold;
 }
