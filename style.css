@@ -37,6 +37,19 @@ nav a img{
     font-weight: 600;
     
 }
+/* ==========Nav hover========== */
+.nav-links ul li::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    margin: auto;
+    background: #ff6600;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
 /* ==========header section========== */
 .header{
     display: flex;
